@@ -1,0 +1,14 @@
+{
+  "name": "candle-shop-app",
+  "version": "1.0.0",
+  "description": "The online store for selling handmade natural soy candles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dima Gorodov",
+  "license": "MIT",
+  "workspaces": [
+    "client"
+  ]
+}
