@@ -1,0 +1,19 @@
+@import 'variables';
+
+@mixin icon-styling {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    stroke: black;
+    transition: stroke 0.3s ease;
+
+    &:hover {
+      stroke: $cream-color
+    }
+  }
+}
