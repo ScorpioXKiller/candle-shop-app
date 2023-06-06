@@ -56,8 +56,16 @@ logo-container {
   position: absolute;
   right: 20px;
   top: 60px;
-  @include icon-styling;
 }
+
+.non-static-icon-stroke {
+  @include icon-styling-stroke;
+}
+
+.non-static-icon-fill {
+  @include icon-styling-fill;
+}
+
 
 .divider {
   position: absolute;
@@ -72,23 +80,33 @@ logo-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 26px 30px 65px;
+  font-family: Montserrat, sans-serif;
 
   .location,
   .phone,
   .icons {
     display: flex;
     align-items: center;
+    gap: 25px;
+  }
+
+  .phone {
     gap: 10px;
   }
 
-  .icon {
-    //@include icon-styling;
-    margin-right: 5px;
+  .location {
+    gap: 30px;
   }
 
-  .name,
+  .name {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
   .number {
-    margin-left: 5px;
+    font-size: 19px;
+    line-height: 26.5px;
+    letter-spacing: 2px;
   }
 }
