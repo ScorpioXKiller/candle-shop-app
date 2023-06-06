@@ -1,4 +1,4 @@
-<header class="header">
+<section class="header">
     <nav class="nav">
         <a class="nav-item nav-link" routerLink="/contacts">Contacts</a>
         <a class="nav-item nav-link" routerLink="/products">Catalog</a>
@@ -19,9 +19,9 @@
     </div>
 
     <div class="divider"></div>
-</header>
+</section>
 
-<div class="subheading">
+<section class="subheading">
     <div class="location">
         <img class="icon" src="../../../assets/icons/location-icon.svg" alt="location">
 
@@ -53,4 +53,10 @@
             </svg>
         </span>
     </div>
-</div>
+</section>
+
+<section class="banner">
+    <p class="banner__content" *ngFor="let item of bannerItems">{{item}}</p>
+</section>
+
+
