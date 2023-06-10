@@ -12,6 +12,10 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 import { AboutComponent } from './components/about/about.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { ScentsDemoComponent } from './components/scents-demo/scents-demo.component';
+import { CompanyInfoComponent } from './components/company-info/company-info.component';
+import { ProductionInfoComponent } from './components/production-info/production-info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     ProductDetailsComponent,
     AboutComponent,
     ContactsComponent,
-    GalleryComponent
+    GalleryComponent,
+    IntroComponent,
+    ScentsDemoComponent,
+    CompanyInfoComponent,
+    ProductionInfoComponent
   ],
   imports: [
     BrowserModule,

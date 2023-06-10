@@ -1,0 +1,27 @@
+.production-info {
+  display: flex;
+
+  &__container {
+    height: 755px;
+    padding: 123px 82px 195px 123px;
+    background-color: #D7D5D2;
+
+    box-sizing: border-box;
+  }
+
+  &__title {
+    margin: 0 0 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+    &__description {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,38 @@
+.company-info {
+  margin-bottom: 229px;
+  position: relative;
+
+  &__image {
+    margin-left: 160px;
+  }
+
+  &__container {
+    width: 533px;
+    height: 471px;
+    padding: 69px 73px 71px 87px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    background-color: #D1CECBF5;
+    box-sizing: border-box;
+  }
+
+  &__title {
+    margin: 0 0 10px;
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  &__description {
+    margin: 0;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+}

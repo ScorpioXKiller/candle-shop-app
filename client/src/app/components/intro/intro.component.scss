@@ -1,0 +1,55 @@
+.intro {
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .intro__description {
+        max-width: 462px;
+        margin: 35px auto auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .intro__title {
+            max-width: 100%;
+            margin: 0 0 40px;
+            font-family: Lora, serif;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 52.8px;
+            text-align: left;
+        }
+
+        .intro__image {
+            width: 423px;
+            height: 386px;
+            margin-bottom: 47px;
+        }
+
+        .intro__button {
+            width: 423px;
+            height: 58px;
+            padding: 10px 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 8px;
+            font-family: Lora, serif;
+            font-size: 18px;
+            line-height: 29px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+    .intro__example-image {
+        width: 564px;
+        height: 752px;
+    }
+}
+
