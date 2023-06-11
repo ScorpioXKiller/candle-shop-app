@@ -17,6 +17,7 @@ import { ScentsDemoComponent } from './components/scents-demo/scents-demo.compon
 import { CompanyInfoComponent } from './components/company-info/company-info.component';
 import { ProductionInfoComponent } from './components/production-info/production-info.component';
 import { InstagramFeedComponent } from './components/instagram-feed/instagram-feed.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { InstagramFeedComponent } from './components/instagram-feed/instagram-fe
     ScentsDemoComponent,
     CompanyInfoComponent,
     ProductionInfoComponent,
-    InstagramFeedComponent
+    InstagramFeedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
