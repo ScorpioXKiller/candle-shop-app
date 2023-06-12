@@ -52,11 +52,12 @@ logo-container {
   }
 }
 
-.profile-icon {
-  position: absolute;
-  right: 20px;
-  top: 60px;
-}
+//TODO: add styles for switching between languages (English and Russian) in the header
+//.profile-icon {
+//  position: absolute;
+//  right: 20px;
+//  top: 60px;
+//}
 
 .non-static-icon-stroke {
   @include icon-styling-stroke;
