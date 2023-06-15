@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LanguageService } from "../../shared/language.service";
 
 @Component({
   selector: 'app-header',
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  private bannerContent: string = 'Get 10% off when you order 3 or more!'
+  private bannerContent: string = 'header.banner.content'
   private repetitions: number = 3;
   readonly bannerItems: string[] = Array(this.repetitions).fill(this.bannerContent);
+
+  constructor(public languageService: LanguageService) {}
 }
