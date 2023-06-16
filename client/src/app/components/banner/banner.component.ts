@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent {
-  private bannerContent: string = 'header.banner.content'
+  private bannerContent: string = 'banner.content'
   private repetitions: number = 3;
   readonly bannerItems: string[] = Array(this.repetitions).fill(this.bannerContent);
 }
