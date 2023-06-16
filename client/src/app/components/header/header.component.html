@@ -1,14 +1,26 @@
 <section class="header">
     <nav class="nav">
-        <a class="nav-item nav-link" routerLink="/contacts">Contacts</a>
-        <a class="nav-item nav-link" routerLink="/products">Catalog</a>
+        <a class="nav-item nav-link" routerLink="/contacts">{{ "header.navbar.contacts" | translate }}</a>
+        <a class="nav-item nav-link" routerLink="/products">{{ "header.navbar.catalog" | translate }}</a>
 
         <div class="logo-container">
             <a class="logo" routerLink="/">Liquened</a>
         </div>
 
-        <a class="nav-item nav-link" routerLink="/about">About</a>
-        <a class="nav-item nav-link" routerLink="/gallery">Gallery</a>
+        <a class="nav-item nav-link" routerLink="/about">{{ "header.navbar.about" | translate }}</a>
+        <a class="nav-item nav-link" routerLink="/gallery">{{ "header.navbar.gallery" | translate }}</a>
+
+        <div class="language-container">
+            <a class="nav-item nav-link language-link" (click)="languageService.selectedLanguage('en-US')">
+                {{ "header.language.english" | translate }}
+            </a>
+
+            <span class="separator"></span>
+
+            <a class="nav-item nav-link language-link" (click)="languageService.selectedLanguage('ru-RU')">
+                {{ "header.language.russian" | translate }}
+            </a>
+        </div>
     </nav>
 
     <div class="divider"></div>
@@ -18,7 +30,7 @@
     <div class="location">
         <img class="icon" src="../../../assets/icons/location-icon.svg" alt="location">
 
-        <span class="name">Petah Tikva</span>
+        <span class="name">{{ "header.subheader.location" | translate }}</span>
     </div>
 
     <div class="phone">
@@ -49,7 +61,7 @@
 </section>
 
 <section class="banner">
-    <p class="banner__content" *ngFor="let item of bannerItems">{{item}}</p>
+    <p class="banner__content" *ngFor="let item of bannerItems">{{item | translate}}</p>
 </section>
 
 
