@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  overflow: hidden;
+  background-color: black;
+  height: 67px;
+  align-items: center;
+  gap: 200px;
+
+  &__content {
+    white-space: nowrap;
+    padding: 10px 24px;
+    width: max-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: white;
+    animation: moveMessage 15s infinite linear;
+  }
+}
+
+@keyframes moveMessage {
+  from {
+    transform: translateX(400%);
+  }
+
+  to {
+    transform: translateX(-400%);
+  }
+}

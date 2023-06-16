@@ -1,0 +1,44 @@
+@import "../../../assets/styles/mixins";
+
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 30px 65px;
+  font-family: Montserrat, sans-serif;
+
+  .location,
+  .phone,
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .phone {
+    gap: 10px;
+  }
+
+  .location {
+    gap: 30px;
+  }
+
+  .name {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .number {
+    font-size: 19px;
+    line-height: 26.5px;
+    letter-spacing: 2px;
+  }
+
+  .non-static-icon-stroke {
+    @include icon-styling-stroke;
+  }
+
+  .non-static-icon-fill {
+    @include icon-styling-fill;
+  }
+}
