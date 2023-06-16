@@ -11,15 +11,15 @@
       "choose_language": "Выберите язык",
         "english": "АНГЛ",
         "russian": "РУ"
-    },
-
-    "subheader": {
-      "location": "Петах Тиква"
-    },
-
-    "banner": {
-      "content": "Скидка 10% при заказе от 3 штук"
     }
+  },
+
+  "subheader": {
+    "location": "Петах Тиква"
+  },
+
+  "banner": {
+    "content": "Скидка 10% при заказе от 3 штук"
   },
 
   "main": {

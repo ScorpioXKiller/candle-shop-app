@@ -11,15 +11,15 @@
       "choose_language": "Choose language",
       "english": "EN",
       "russian": "RU"
-    },
-
-    "subheader": {
-      "location": "Petah Tikva"
-    },
-
-    "banner": {
-      "content": "Get 10% off when you order 3 or more!"
     }
+  },
+
+  "subheader": {
+    "location": "Petah Tikva"
+  },
+
+  "banner": {
+    "content": "Get 10% off when you order 3 or more!"
   },
 
   "main": {

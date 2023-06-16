@@ -22,6 +22,8 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import { LanguageService } from './shared/language.service';
+import { SubheaderComponent } from './components/subheader/subheader.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -43,7 +45,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     CompanyInfoComponent,
     ProductionInfoComponent,
     InstagramFeedComponent,
-    FooterComponent
+    FooterComponent,
+    SubheaderComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

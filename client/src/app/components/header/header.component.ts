@@ -7,9 +7,5 @@ import { LanguageService } from "../../shared/language.service";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  private bannerContent: string = 'header.banner.content'
-  private repetitions: number = 3;
-  readonly bannerItems: string[] = Array(this.repetitions).fill(this.bannerContent);
-
   constructor(public languageService: LanguageService) {}
 }
