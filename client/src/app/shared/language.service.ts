@@ -7,8 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class LanguageService {
   constructor(private translationService: TranslateService) { }
 
-  public selectedLanguage(language: string, event: Event): void {
-    event.preventDefault();
+  public selectedLanguage(language: string): void {
     this.translationService.use(language);
   }
 }

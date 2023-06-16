@@ -11,13 +11,13 @@
         <a class="nav-item nav-link" routerLink="/gallery">{{ "header.navbar.gallery" | translate }}</a>
 
         <div class="language-container">
-            <a class="nav-item nav-link language-link" href="#" (click)="languageService.selectedLanguage('en-US', $event)">
+            <a class="nav-item nav-link language-link" (click)="languageService.selectedLanguage('en-US')">
                 {{ "header.language.english" | translate }}
             </a>
 
             <span class="separator"></span>
 
-            <a class="nav-item nav-link language-link" href="#" (click)="languageService.selectedLanguage('ru-RU', $event)">
+            <a class="nav-item nav-link language-link" (click)="languageService.selectedLanguage('ru-RU')">
                 {{ "header.language.russian" | translate }}
             </a>
         </div>
@@ -30,7 +30,7 @@
     <div class="location">
         <img class="icon" src="../../../assets/icons/location-icon.svg" alt="location">
 
-        <span class="name">Petah Tikva</span>
+        <span class="name">{{ "header.subheader.location" | translate }}</span>
     </div>
 
     <div class="phone">
